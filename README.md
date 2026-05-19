@@ -9,9 +9,9 @@ A Dockerfile serves as the foundational blueprint for containerization by acting
 
 2. 	Why are Docker containers lighter than virtual machines?
 The reason Docker containers are significantly lighter than virtual machines lies in how they interact with the operating system. Virtual machines rely on a hypervisor to boot an entire, isolated guest operating system for every single application, which consumes massive amounts of RAM, CPU, and storage. In contrast, containers bypass this heavy overhead by sharing the host machine's operating system kernel. They only package the application code alongside its specific required binaries and libraries, allowing them to remain incredibly small and start up in mere milliseconds. 
-3. 	What happens when the container finishes execution?
 
-When a container finishes its execution, its lifecycle is directly dictated by the primary process running inside it. Once that main task is complete—such as a Python script finishing its final line of code—the container immediately stops running and enters an exited state. While in this dormant state, it consumes absolutely zero active memory or CPU power, but it does not automatically delete itself from your system. The container and its internal file system remain saved on your hard drive so you can review its logs or restart it until you intentionally remove it. 
+3. 	What happens when the container finishes execution?
+When a container finishes its execution, its lifecycle is directly dictated by the primary process running inside it. Once that main task is complete such as a Python script finishing its final line of code—the container immediately stops running and enters an exited state. While in this dormant state, it consumes absolutely zero active memory or CPU power, but it does not automatically delete itself from your system. The container and its internal file system remain saved on your hard drive so you can review its logs or restart it until you intentionally remove it. 
 
 
 
