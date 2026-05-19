@@ -13,9 +13,12 @@ When a container finishes its execution, its lifecycle is directly dictated by t
 
 App.py
 <img width="583" height="311" alt="image" src="https://github.com/user-attachments/assets/47b831fd-ce31-4dad-850e-0800606e8dc9" />
+
 Dockerfile
 <img width="537" height="293" alt="image" src="https://github.com/user-attachments/assets/96e93696-8fc2-4920-a697-53f1a0c4a404" />
+
 Output
 <img width="591" height="334" alt="image" src="https://github.com/user-attachments/assets/ce04bd0e-e0c2-43f9-86a7-4eef958d366d" />
+
 Cleaning
 <img width="572" height="158" alt="image" src="https://github.com/user-attachments/assets/e12678af-3fd5-4fd9-af35-e52a3f2aa8d8" />
